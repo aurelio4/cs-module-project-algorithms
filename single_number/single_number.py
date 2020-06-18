@@ -4,9 +4,10 @@ Returns: an integer
 '''
 def single_number(arr):
     # Your code here
+    arr.sort()
 
-    pass
-
+    for i in range(0, len(arr) - 1):
+        
 
 if __name__ == '__main__':
     # Use the main function to test your implementation
