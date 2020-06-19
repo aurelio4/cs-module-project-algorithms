@@ -4,9 +4,16 @@ Returns: an integer
 '''
 def single_number(arr):
     # Your code here
+    # arr.sort()
 
-    pass
-
+    # for i in range(0, len(arr)):
+    #     if arr[i] == arr[i + 1]:
+    #         continue
+    x = 0
+    for i in arr:
+        x ^= i
+    
+    return x
 
 if __name__ == '__main__':
     # Use the main function to test your implementation
